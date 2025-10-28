@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(0, 0, 144, 0.7);
+  padding: 15px;
+}
+/* Paleta de colores suaves */
+:root {
+  --primary: #6c63ff;
+  --secondary: #f8f8fc;
+  --accent: #b3b3e6;
+  --text: #333;
+  --background: #f4f6fb;
+  --white: #fff;
+  --gray: #e0e0e0;
+}
+
+body {
+  font-family: "Segoe UI", "Arial", sans-serif;
+  background: var(--background);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: var(--primary);
+  color: var(--white);
+  padding: 2rem 1rem 1.5rem 1rem;
+  text-align: center;
+  border-radius: 0 0 24px 24px;
+  box-shadow: 0 2px 8px rgba(108, 99, 255, 0.08);
+}
+
+header img {
+  margin-bottom: 0.5rem;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: var(--white);
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(108, 99, 255, 0.06);
+  padding: 2rem 1.5rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: var(--secondary);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(108, 99, 255, 0.04);
+}
+
+thead th {
+  background: var(--accent);
+  color: var(--white);
+  font-weight: 500;
+  padding: 0.75rem 0.5rem;
+  width: 100%;
+}
+
+tbody td {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: var(--text);
+  border-bottom: 1px solid var(--gray);
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+legend {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+article {
+  background: var(--secondary);
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px rgba(108, 99, 255, 0.03);
+}
+
+h2 {
+  color: var(--primary);
+  margin-top: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 1.2rem 0 1.5rem 0;
+  color: #888;
+  font-size: 1rem;
+  background: none;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 1rem 0.5rem;
+  }
+  table,
+  thead,
+  tbody,
+  td,
+  tr {
+    display: block;
+    width: 100%;
+  }
+  article {
+    padding: 0.7rem 0.5rem;
+  }
+  header {
+    padding: 1.2rem 0.5rem 1rem 0.5rem;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+main table {
+  display: flex;
+}

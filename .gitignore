@@ -1,0 +1,9 @@
+./yolov8n.pt
+./pytest.ini
+./.vscode/
+./pytest_cache/
+./alembic/
+./logs/
+./reports/
+./temp/
+./node_modules/

@@ -1,7 +1,1 @@
 @import "tailwindcss";
-
-#id {
-  display: grid;
-  grid-template-rows: 0 1 0;
-  min-height: 100dvh;
-}
